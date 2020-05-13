@@ -1,0 +1,59 @@
+html {
+    background-color:white;
+    font-size: 50%;
+    font-family: "Open Sans", sans-serf;
+}
+
+body {
+    min-width: 100rem;
+    max-width: 100rem;
+    margin: 0 auto;
+    margin-bottom: 10rem;
+}
+
+.dropdown__list {
+    display: block;
+    margin: 0 auto;
+    font-size: 3rem;
+    max-width: 80rem;
+    font-style: italic;
+}
+
+.dropdown__option {
+    font-style: italic;
+}
+
+.header {
+    margin: 0 auto;
+}
+
+.header__title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 10rem;
+    padding: 20px 0;
+    text-shadow: 3px 5px 1px gray;
+}
+
+.dropdown__tag {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.content-header__flag {
+    display: block;
+    height: 30rem;
+    float: right;
+}
+
+.content {
+    display:block;
+    margin: 0 auto;
+}
+
+.content-item {
+    font-size: 2rem;
+    margin-bottom: 0;
+}
