@@ -1,32 +1,35 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Countries</title>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
-        <link rel="stylesheet" href="/styles/styles.css">
-        <link rel="icon" href="/images/earth-icon.png">
-    </head>
-    <body>
-        <header class="header">
-            <div class="container">
-                <h1 class="header__title">Countries</h1>
-            </div>
-        </header>
-        <div class="actions">
-            <div class="container">
-                <p class="dropdown__tag">Search the world:</p>
-                <div class="dropdown">
-                    <select  id="country-list" class="dropdown__list">
-                        <option class="dropdown__option" value="selector">----Select Country----</option>
-                    </select>
-                </div>
-            </div>
-        </div>
-        <div class="content">
-            <div id="country-info" class="container"></div>
-        </div>
-    </body>
-    <script src="/scripts/requests.js"></script>
-    <script src="/scripts/functions.js"></script>
-    <script src="/scripts/countries.js"></script>
+
+<head>
+  <title>Countries</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="icon" href="images/earth-icon.png">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <h1 class="header__title">Countries</h1>
+    </div>
+  </header>
+  <div class="actions">
+    <div class="container">
+      <p class="dropdown__tag">Search the world:</p>
+      <div class="dropdown">
+        <select id="country-list" class="dropdown__list">
+          <option class="dropdown__option" value="selector">----Select Country----</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <div class="content">
+    <div id="country-info" class="container">
+      <h3>Please select a country</h3>
+    </div>
+  </div>
+  <script src="scripts/app.js"></script>
+</body>
+
 </html>
