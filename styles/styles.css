@@ -57,3 +57,7 @@ body {
     font-size: 2rem;
     margin-bottom: 0;
 }
+
+#country-list {
+    width: 400px;
+}
